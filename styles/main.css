@@ -1,0 +1,413 @@
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/playfair-display-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair-display-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-500 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/playfair-display-v29-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair-display-v29-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  margin: 0px;
+}
+.container{
+  width: 1236px;
+  padding: 0px 30px;
+  margin: 0px auto;
+}
+h1, h2, h3, h4, h5, h6, ul, p{
+  margin: 0px;
+  padding: 0px;
+}
+.header{
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list{
+  display: flex;
+  list-style: none;
+}
+.header-link{
+  text-decoration: none;
+  color: #555248;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.header-item{
+  margin-left: 70px;
+}
+.header-menu{
+  display: flex;
+  list-style: none;
+}
+.header-element{
+  margin-left: 20px;
+}
+.intro{
+  margin-bottom: 15px;
+}
+.intro-inner{
+  display: flex;
+  align-items: center;
+}
+.intro-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 605px;
+}
+.intro-price{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+.price{
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+}    
+.intro-line{
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  background-color:#8B8371 ;
+  margin-right: 14px;
+  margin-left: 7px
+}
+.intro-box{
+  display: flex;
+  width: 410px;
+  align-items: flex-start;
+}
+.text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.intro-line-add{
+  width: 50px;
+  height: 1px;
+  background-color: #8B8371;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.intro-title{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1B1A17;
+}
+.intro-add{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1B1A17;
+  margin-bottom: 8px;
+}
+.intro-discribe{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(27, 26, 23, 0.82);
+  margin-bottom: 0px; 
+}
+.intro-link{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 205px;
+  background-color: #444240;
+  text-align: center;
+  padding: 27px 38px;
+  margin-top: 40px;
+}
+.popular{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.popular-title{
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.popular-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.popular-button{
+  display: block;
+  background-color: white;
+  width: 104px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+}
+.popular-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-item{
+  width: 370px;
+  background-color: white;
+}
+.popular-name{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+}
+.popular-describe{
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+.popular-box{
+  display: flex;
+  align-items: center;
+}
+.link-line{
+  width: 30px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.popular-link{
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
+}
+.quality{
+  margin-bottom: 45px;
+}
+.quality-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.quality-info{
+  width: 376px;
+}
+.quality-title{
+  margin-bottom: 38px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.quality-describe{
+  margin-bottom: 45px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #444240;
+}
+.quality-link{
+  width: 210px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 27px 38px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  background-color: #D4B098;
+}
+.quality-button{
+  width: 63px;
+  display: flex;
+  margin: 0 auto;
+}
+.news{
+  margin-bottom: 90px;
+}
+.news-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-title{
+  margin-bottom: 40px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.news-describe{
+  margin-bottom: 118px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444240;
+}
+.conquest-watch{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444240;
+}
+.news-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.footer{
+  background-color: #444240;
+  padding-top: 79px;
+  padding-bottom: 67px;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-box{
+  width:160px;
+}
+.footer-link{
+  display: block;
+  width: 130px;
+  margin-bottom: 23px;
+}
+.footer-tel{
+  display: block;
+  width: 127px;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 15px;
+}
+.footer-email{
+  display: block;
+  width: 160px;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 15px;
+}
+.footer-information{
+  width: 180px;
+}
+.footer-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+.footer-list{
+  list-style: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.footer-item{
+  margin-bottom: 15px;
+}
